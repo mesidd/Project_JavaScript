@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.clock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  color: green;
+  font-weight: bold;
+  font-size: 60px;
+  row-gap: 8px;
+}
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
