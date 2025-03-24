@@ -1,18 +1,14 @@
 // Date And Time Showing
 
-const body = document.querySelector('window');
-
-const dayObject = document.getElementById('day');
-
-const date = new Date().toLocaleDateString();
-
-dayObject.innerText = date;
-
-const time = document.getElementById('time');
-
-
 function upadtetime(){
+
   const date = new Date();
+
+  const dayObject = document.getElementById('day');
+
+  dayObject.innerText = date.toLocaleDateString();
+
+  const time = document.getElementById('time');
 
   const min = date.getMinutes() < 10 ? "0"+date.getMinutes(): date.getMinutes();
   
@@ -34,14 +30,3 @@ setInterval(()=>{
 upadtetime();
 
 },1000)
-
-
-
-
-
- 
- 
-
-
-
-
