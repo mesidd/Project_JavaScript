@@ -1,0 +1,45 @@
+body{
+background-color: #000;
+height: 600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+
+#heading{
+  color: #fff;
+  font-size: 30px;
+}
+
+#start{
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+input:focus{
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+
+#time{
+  height: 34px;
+  width: 200px;
+  text-align: center;
+  border-color: black;
+}
+
+#show{
+  color: greenyellow;
+  font-size: 30px;
+}
+
+#restart{
+  display: none;
+  cursor: pointer;
+}
