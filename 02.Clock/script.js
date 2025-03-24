@@ -6,7 +6,11 @@ function upadtetime(){
 
   const dayObject = document.getElementById('day');
 
-  dayObject.innerText = date.toLocaleDateString();
+  const weekday = date.getDay();
+
+  const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+
+  dayObject.innerText = days[weekday]+ ", " + date.toLocaleDateString();
 
   const time = document.getElementById('time');
 
@@ -24,6 +28,7 @@ function upadtetime(){
   
   time.innerText = `${hours}:${min}:${seconds} ${AmPm}`;
 }
+
 
 setInterval(()=>{
 
