@@ -1,4 +1,4 @@
-# Files
+# Projects
 
 Created some useful project or todo web-app using HTML, CSS & JS.
 
