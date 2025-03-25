@@ -1,0 +1,49 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+input{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 30px;
+}
+
+input::placeholder{
+  font-size: 16px;
+}
+
+.box{
+  display: flex;
+  width: 220px;
+  gap: 10px;
+  justify-content: space-around;
+  margin-top: 6px;
+}
+
+#add, #subtract, #divide, #multiply {
+cursor: pointer;
+height: 34px;
+width: 34px;
+font-size: 20px;
+margin-top: 10px;
+}
+
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+#result, p{
+  font-size: 24px;
+}
+
